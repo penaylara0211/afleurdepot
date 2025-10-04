@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>À Fleur de Pot</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#boutique">Boutique</a></li>
+        <li><a href="#creations">Créations</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#panier">Panier 🛒</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <h1>Bienvenue dans<br/>Ma boutique en ligne<br/>À Fleur de Pot</h1>
+    <p>Des fleurs pour chaque occasion, des souvenirs pour toujours</p>
+  </section>
+
+  <section id="apropos">
+    <h2>À PROPOS</h2>
+    <p>À Fleur de Pot, c’est avant tout une histoire de passion...</p>
+  </section>
+
+  <section id="boutique">
+    <h2>BOUTIQUE</h2>
+    <div class="produits">
+      <div class="produit">
+        <img src="https://via.placeholder.com/150" alt="Produit 1" />
+        <p>Bouquet 1</p>
+        <button onclick="ajouterAuPanier('Bouquet 1')">Ajouter au panier</button>
+      </div>
+      <div class="produit">
+        <img src="https://via.placeholder.com/150" alt="Produit 2" />
+        <p>Bouquet 2</p>
+        <button onclick="ajouterAuPanier('Bouquet 2')">Ajouter au panier</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="creations">
+    <h2>CRÉATIONS</h2>
+    <div class="galerie">
+      <img src="https://via.placeholder.com/150" alt="Création 1" />
+      <img src="https://via.placeholder.com/150" alt="Création 2" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>CONTACT</h2>
+    <p>Une question, une demande sur-mesure ou l'envie de faire fleurir un bel événement ?</p>
+    <a class="bouton" href="mailto:afleurdepot@gmail.com">Réservez dès maintenant</a>
+  </section>
+
+  <section id="panier">
+    <h2>Votre Panier</h2>
+    <ul id="liste-panier"></ul>
+    <button onclick="envoyerCommande()">Commander par mail</button>
+  </section>
+</body>
+</html>
