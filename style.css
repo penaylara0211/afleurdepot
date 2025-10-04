@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+header {
+  background: olive;
+  padding: 1em;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+.produits, .galerie {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.produit {
+  border: 1px solid #ccc;
+  padding: 1em;
+}
+.bouton {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background: darkgreen;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
