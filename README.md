@@ -1,2 +1,2 @@
-# afleurdepot
-boutique en ligne fleuriste 
+# A Fleur de Pot
+Ma boutique en ligne
